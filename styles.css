@@ -6,7 +6,7 @@ body{
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.959);
     text-shadow: 2px 2px 2px rgb(229, 134, 134); /*borde de las letras en blanco*/
-    background-position: center;
+    background-position: center center;
 }
 header nav ul {
     
