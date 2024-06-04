@@ -5,7 +5,8 @@ body{
     background-attachment: fixed;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.959);
-    text-shadow: 2px 2px 2px white; /* borde de las letras en blanco */
+    text-shadow: 2px 2px 2px rgb(229, 134, 134); /*borde de las letras en blanco*/
+
 }
 header nav ul {
     
@@ -41,6 +42,7 @@ li{
 }
 a{
     text-decoration: none;
+    color: black;
 }
 .alinear{
     text-align: right;
@@ -64,7 +66,8 @@ h2{
 p{
     text-align: center;
     color: black;
-    text-shadow: 2px 2px 2px white;
+    -webkit-text-stroke: 0.5px rgb(229, 134, 134);
+    font-size: 25px;
 }
 
 
