@@ -6,7 +6,7 @@ body{
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.959);
     text-shadow: 2px 2px 2px rgb(229, 134, 134); /*borde de las letras en blanco*/
-
+    
 }
 header nav ul {
     
@@ -14,7 +14,7 @@ header nav ul {
     justify-content: center;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 20px;
     
 
 }
@@ -43,6 +43,7 @@ li{
 a{
     text-decoration: none;
     color: black;
+    -webkit-text-stroke: 1px blue;
 }
 .alinear{
     text-align: right;
@@ -53,21 +54,22 @@ nav.lista ul li{
     margin: 10px;
     justify-content: center;
 }
-aside div h3{
+aside div h3 {
     text-align: center;
-    
+    color: black;
+    -webkit-text-stroke: 1px blue;
 }
-aside div p{
+aside div p {
     text-align: start;
 }
 h2{
     text-align: center;
+    color: black;
+    -webkit-text-stroke: 0.2px blue;
 }
 p{
     text-align: center;
     color: black;
-    -webkit-text-stroke: 0.5px rgb(229, 134, 134);
+    -webkit-text-stroke: 1px blue;
     font-size: 25px;
 }
-
-
