@@ -1,0 +1,67 @@
+body{
+    background-image: url(foto1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.959);
+}
+header nav ul {
+    
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    
+
+}
+li{
+    display: inline;
+    margin: 15px;
+    
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    opacity: 0.9;
+}
+
+.wid {
+    
+    float: right;
+    width: 500px;
+    width: 15%;
+    padding: 5px;
+    text-align:start;
+    height: 93%;
+    
+}
+a{
+    text-decoration: none;
+}
+.alinear{
+    text-align: right;
+}
+nav.lista ul li{
+    text-align: right;
+    display: block;
+    margin: 10px;
+    justify-content: center;
+}
+aside div h3{
+    text-align: center;
+    
+}
+aside div p{
+    text-align: start;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+
